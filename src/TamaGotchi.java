@@ -7,6 +7,7 @@ public class TamaGotchi {
 
     public TamaGotchi(String nombre){
         this.nombre = nombre;
+        this.hambre = 100;
 
     }
 }
