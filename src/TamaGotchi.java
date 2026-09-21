@@ -1,7 +1,7 @@
 public class TamaGotchi {
     private String nombre;
-    private int hambre = 100;
-    private int energia = 0;
+    private int hambre = 0;
+    private int energia = 100;
 
     public void asignarNombre(String nuevoNombre) {
         this.nombre = nuevoNombre;
@@ -14,7 +14,7 @@ public class TamaGotchi {
     }
 
     public void alimentar() {
-        this.energia += 15;
+        this.energia += 40;
         this.hambre -= 20;
         System.out.println(this.nombre + " está comiendo su alimento favorito!");
     }
