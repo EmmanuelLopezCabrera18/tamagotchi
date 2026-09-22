@@ -10,13 +10,13 @@ public class TamaGotchi {
     public void jugar() {
         this.energia -= 20;
         this.hambre += 10;
-        System.out.println(this.nombre + " está jugando y saltando!");
+        System.out.println("¡" + this.nombre + " está jugando y saltando!");
     }
 
     public void alimentar() {
         this.energia += 40;
         this.hambre -= 20;
-        System.out.println(this.nombre + " está comiendo su alimento favorito!");
+        System.out.println("¡" + this.nombre + " está comiendo su alimento favorito!");
     }
 
     public void mostrarEstado() {
